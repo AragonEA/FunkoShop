@@ -1,0 +1,22 @@
+{
+  "name": "funkoshop",
+  "version": "1.0.0",
+  "description": "Projecto E-commerce del curso Codo A Codo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AragonEA/FunkoShop.git"
+  },
+  "author": "AragonEA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AragonEA/FunkoShop/issues"
+  },
+  "homepage": "https://github.com/AragonEA/FunkoShop#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
