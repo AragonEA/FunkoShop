@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/branding/isotype.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Home | FunkoShop</title>
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <nav class="d-flex justify-content-around py-4">
+            <a href="/">
+                <img src="./src/img/branding/logo_light_horizontal.svg" alt="FunkoShop Logo">
+            </a>
+            <ul class="d-flex text-uppercase my-0 py-3">
+                <li class="nav-item py-3 px-4"><a href="./src/pages/shop.html" class="nav-link active"
+                        aria-current="page">Shop</a></li>
+                <li class="nav-item py-3 px-4"><a href="./src/pages/" class="nav-link">Contact</a></li>
+                <li class="nav-item py-3 px-4"><a href="./src/pages/" class="nav-link">Log In</a></li>
+                <li class="nav-item py-3 px-4">
+                    <a href="./src/pages/" class="nav-link">
+                        <img src="./src/img/icons/cart-icon.svg" alt="shopping cart icon"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <article>
+            <h3 class="my-0">New releases</h3>
+            <p class="text-nowrap">Discover new funkos to add to your collection</p>
+            <a id="shop-btn" class="button" href="./src/pages/">SHOP</a>
+        </article>
+    </section>
+
+    <main>
+
+        <div class="container">
+            <section class="d-flex align-items-center justify-content-center">
+                <article class="figure-description">
+                    <h3>Star Wars & The Mandalorian</h3>
+                    <p>Expand your Star Wars™ set with these stellar characters!</p>
+                    <a class="button d-inline-block" href="./src/pages/shop">See Collection</a>
+                </article>
+                <img class="funko-img" src="./src/img/star-wars/baby-yoda-1.webp" alt="Baby Yoda funko figure">
+            </section>
+
+            <section class="d-flex flex-row-reverse align-items-center justify-content-center">
+                <article class="figure-description">
+                    <h3>Pokemon</h3>
+                    <p>Your dream of becoming a Trainer is not out of reach!</p>
+                    <a class="button" href="./src/pages/shop">See Collection</a>
+                </article>
+                <img class="funko-img" src="./src/img/pokemon/vulpix-1.webp" alt="Vulpix funko figure">
+            </section>
+
+            <section class="d-flex align-items-center justify-content-center">
+                <article class="figure-description">
+                    <h3>Harry Potter</h3>
+                    <p>Expand your Harry Potter™ collection with this funko!</p>
+                    <a class="button" href="./src/pages/shop">See Collection</a>
+                </article>
+                <img class="funko-img" src="./src/img/harry-potter/snape-patronus-1.webp"
+                    alt="Snape patronus funko figure">
+            </section>
+
+        </div>
+
+        <div id="new-releases" class="container">
+            <section>
+                <h2 class="text-uppercase">New releases</h2>
+                <ul class="row justify-content-around">
+                    <li class="col-12 col-lg-4 d-flex">
+                        <article>
+                            <a class="text-reset" href="">
+                                <img class="new-release-img" src="src/img/star-wars/trooper-1.webp"
+                                    alt="Star trooper funko figure">
+                                    <span class="new-btn">NEW</span>
+                                <div>
+                                    <p class="fs-6 text-uppercase">Star wars</p>
+                                    <h4 class="fs-5 fw-bold text-uppercase">Stormtrooper lightsaber</h4>
+                                    <p class="fs-6">$ 1799,00.-</p>
+                                    <p class="fs-6 payment-interest">3 INTEREST-FREE PAYMENTS</p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col-12 col-lg-4 d-flex">
+                        <article>
+                            <a class="text-reset" href="">
+                                <img class="new-release-img" src="src/img/pokemon/pidgeotto-1.webp"
+                                    alt="Pokemon Pidgeotto funko figure">
+                                    <span class="new-btn">NEW</span>
+                                <div>
+                                    <p class="fs-6 text-uppercase">Pokemon</p>
+                                    <h4 class="fs-5 fw-bold text-uppercase">Pokemon Pidgeotto</h4>
+                                    <p class="fs-6">$ 1799,00.-</p>
+                                    <p class="fs-6 payment-interest">3 INTEREST-FREE PAYMENTS</p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="col-12 col-lg-4 d-flex">
+                        <article>
+                            <a class="text-reset" href="">
+                                <img class="new-release-img" src="src/img/harry-potter/luna-1.webp"
+                                    alt="Luna Lovegood lion mask funko figure">
+                                    <span class="new-btn">NEW</span>
+                                <div>
+                                    <p class="fs-6 text-uppercase">Harry Potter</p>
+                                    <h4 class="fs-5 fw-bold text-uppercase">Luna Lovegood lion mask</h4>
+                                    <p class="fs-6">$ 1799,00.-</p>
+                                    <p class="fs-6 payment-interest">3 INTEREST-FREE PAYMENTS</p>
+                                </div>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="p-5 d-flex justify-content-around">
+            <ul>
+                <li class="nav-item py-1 px-4">
+                    <a class="nav-link text-reset" href="./src/pages/">SHOP</a>
+                </li>
+                <li class="nav-item py-1 px-4">
+                    <a class="nav-link text-reset" href="./src/pages/">SIGN UP</a>
+                </li>
+                <li class="nav-item py-1 px-4">
+                    <a class="nav-link text-reset" href="./src/pages/">LOG IN</a>
+                </li>
+                <li class="nav-item py-1 px-4">
+                    <a class="nav-link text-reset" href="./src/pages/">CONTACT</a>
+                </li>
+            </ul>
+            <img src="./src/img/branding/isotype.svg" alt="FunkoShop isotype">
+        </nav>
+        <p class="fs-5 my-0 py-4 text-center">All rights reserved 2023 - FunkoShop &copy;</p>
+    </footer>
+</body>
+
+</html>
