@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
 
-:root{
+:root {
 
     /* Color-Pallette */
     --primary-solid: #FF3333;
-    --primary-900: rgba(255, 51, 51,0.9);
-    --primary-500: rgba(255, 51, 51,0.5);
-    --primary-300: rgba(255, 51, 51,0.3);
+    --primary-900: rgba(255, 51, 51, 0.9);
+    --primary-500: rgba(255, 51, 51, 0.5);
+    --primary-300: rgba(255, 51, 51, 0.3);
 
     --secondary-solid: #1D84B5;
-    --secondary-900: rgba(29, 132, 181,0.9);
-    --secondary-500: rgba(29, 132, 181,0.5);
-    --secondary-300: rgba(29, 132, 181,0.3);
+    --secondary-900: rgba(29, 132, 181, 0.9);
+    --secondary-500: rgba(29, 132, 181, 0.5);
+    --secondary-300: rgba(29, 132, 181, 0.3);
 
     --dark-solid: #1F1F1F1F;
     --dark-900: rgba(31, 31, 31, 0.9);
@@ -36,7 +36,7 @@
     --font-xsmall: 1.2em;
 
     /* Spacings */
-    
+
     --spacing-128: 12.8rem;
     --spacing-68: 6.8rem;
     --spacing-36: 3.6rem;
@@ -47,41 +47,130 @@
 
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: var(--base-font);
-    font-size: 62.5%;
-    color: #111111;
-}
-
 header,
 footer {
     color: var(--light-font-solid);
+    background-color: var(--dark-bg-solid);
     font-family: var(--alternative-font);
+    font-weight: 500;
+    line-height: 23px;
+    font-size: var(--font-xsmall);
 }
 
 a {
-    text-decoration: none;
-    font-size: 2em;
-    font-family: inherit;
-    color: inherit;
+    text-decoration: none !important;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none !important;
 }
 
-p {
+.button {
+    color: var(--light-font-solid);
+    background-color: var(--dark-bg-solid);
+    font-family: var(--base-font);
+    font-size: var(--font-small);
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 15px 40px 15px 40px;
+}
+
+/* HOME */
+
+#banner {
+    background-image: url(../img/funkos-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    /* filter: blur(3px); */
+    position: relative;
+    min-height: 400px;
+}
+
+#banner>article {
+    color: var(--light-font-solid);
+    font-family: var(--alternative-font);
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    transform: translate(50%, -50%);
+}
+
+#banner>article>h3 {
+    font-size: var(--font-large);
+    font-weight: bold;
+}
+
+#banner>article>p {
+    font-size: var(--font-xsmall);
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.figure-description {
+    font-family: var(--alternative-font) !important;
+}
+
+.figure-description>h3 {
+    font-size: var(--font-large);
+    font-weight: 500;
+}
+
+.figure-description>p {
+    font-size: var(--font-small);
+    font-weight: 400;
+    border-bottom: var(--primary-solid) solid;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.new-release-img {
+    width: 360px;
+    height: 350px;
+}
+
+#new-releases>section>h2 {
+    font-family: var(--base-font) !important;
+    font-size: var(--font-xlarge) !important;
+    font-weight: 700;
+}
+
+.funko-img {
+    width: 600px;
+    height: 600px;
+}
+
+.payment-interest {
+    color: var(--secondary-solid);
+    font-weight: 700;
+}
+
+#shop-btn {
+    background-color: var(--light-bg-solid);
     font-size: var(--font-medium);
+    padding: 5px 70px 5px 70px;
+    color: #111111;
+}
+
+/*                      HOME                        */
+
+/*                      SHOP                        */
+
+.new-btn {
+    display: inline-block;
+    background-color: var(--primary-solid);
+    color: white;
+    width: 25%;
+    font-family: var(--base-font);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -168%;
+    margin-left: 63.5%;
 }
 
 
-.container{
-    max-width: 1200px;
-    margin: 0, auto;
-}
+/*                      SHOP                        */
