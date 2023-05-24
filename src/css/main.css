@@ -76,70 +76,12 @@ ul {
     padding: 15px 40px 15px 40px;
 }
 
-/* HOME */
-
-#banner {
-    background-image: url(../img/funkos-banner.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
-    /* filter: blur(3px); */
-    position: relative;
-    min-height: 400px;
-}
-
-#banner>article {
-    color: var(--light-font-solid);
-    font-family: var(--alternative-font);
-    position: absolute;
-    top: 50%;
-    right: 80%;
-    transform: translate(50%, -50%);
-}
-
-#banner>article>h3 {
-    font-size: var(--font-large);
-    font-weight: bold;
-}
-
-#banner>article>p {
-    font-size: var(--font-xsmall);
-    font-weight: 400;
-    margin-bottom: 70px;
-}
-
-.figure-description {
-    font-family: var(--alternative-font) !important;
-}
-
-.figure-description>h3 {
-    font-size: var(--font-large);
-    font-weight: 500;
-}
-
-.figure-description>p {
-    font-size: var(--font-small);
-    font-weight: 400;
-    border-bottom: var(--primary-solid) solid;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-
-.new-release-img {
-    width: 360px;
-    height: 350px;
-}
-
 #new-releases>section>h2 {
     font-family: var(--base-font) !important;
     font-size: var(--font-xlarge) !important;
     font-weight: 700;
 }
 
-.funko-img {
-    width: 600px;
-    height: 600px;
-}
 
 .payment-interest {
     color: var(--secondary-solid);
@@ -153,24 +95,35 @@ ul {
     color: #111111;
 }
 
-/*                      HOME                        */
+.item-img {
+    position: relative;
+}
 
-/*                      SHOP                        */
+.item-img>img {
+    width: 360px;
+    height: 350px;
+}
 
-.new-btn {
-    display: inline-block;
+.img-label {
+    position: absolute;
     background-color: var(--primary-solid);
-    color: white;
-    width: 25%;
     font-family: var(--base-font);
     font-size: 14px;
     font-weight: 500;
-    padding: 8px;
+    line-height: 14px;
+    color: var(--light-font-solid);
     text-align: center;
-    vertical-align: middle;
-    margin-top: -168%;
-    margin-left: 63.5%;
+    right: 0;
+    width: 80px;
+    height: 30px;
+    padding: 8px;
+}
+
+#cart-btn{
+width: 180px;
+height: 40px;
+color: var(--light-font-solid);
+background-color: var(--primary-solid);
 }
 
 
-/*                      SHOP                        */
