@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./src/img/branding/isotype.svg" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Home | FunkoShop</title>
 </head>
@@ -31,7 +32,7 @@
         </nav>
     </header>
 
-    <section id="banner">
+    <section id="home_banner">
         <article>
             <h3 class="my-0">New releases</h3>
             <p class="text-nowrap">Discover new funkos to add to your collection</p>
@@ -43,30 +44,30 @@
 
         <div class="container">
             <section class="d-flex align-items-center justify-content-center">
-                <article class="figure-description">
+                <article class="home_figure-description">
                     <h3>Star Wars & The Mandalorian</h3>
                     <p>Expand your Star Wars™ set with these stellar characters!</p>
                     <a class="button d-inline-block" href="./src/pages/shop">See Collection</a>
                 </article>
-                <img class="funko-img" src="./src/img/star-wars/baby-yoda-1.webp" alt="Baby Yoda funko figure">
+                <img class="home_funko-img" src="./src/img/star-wars/baby-yoda-1.webp" alt="Baby Yoda funko figure">
             </section>
 
             <section class="d-flex flex-row-reverse align-items-center justify-content-center">
-                <article class="figure-description">
+                <article class="home_figure-description">
                     <h3>Pokemon</h3>
                     <p>Your dream of becoming a Trainer is not out of reach!</p>
                     <a class="button" href="./src/pages/shop">See Collection</a>
                 </article>
-                <img class="funko-img" src="./src/img/pokemon/vulpix-1.webp" alt="Vulpix funko figure">
+                <img class="home_funko-img" src="./src/img/pokemon/vulpix-1.webp" alt="Vulpix funko figure">
             </section>
 
             <section class="d-flex align-items-center justify-content-center">
-                <article class="figure-description">
+                <article class="home_figure-description">
                     <h3>Harry Potter</h3>
                     <p>Expand your Harry Potter™ collection with this funko!</p>
                     <a class="button" href="./src/pages/shop">See Collection</a>
                 </article>
-                <img class="funko-img" src="./src/img/harry-potter/snape-patronus-1.webp"
+                <img class="home_funko-img" src="./src/img/harry-potter/snape-patronus-1.webp"
                     alt="Snape patronus funko figure">
             </section>
 
@@ -109,9 +110,11 @@
                     <li class="col-12 col-lg-4 d-flex">
                         <article>
                             <a class="text-reset" href="">
-                                <img class="new-release-img" src="src/img/harry-potter/luna-1.webp"
-                                    alt="Luna Lovegood lion mask funko figure">
-                                    <span class="new-btn">NEW</span>
+                                <picture class="item-img">
+                                    <img src="src/img/harry-potter/luna-1.webp"
+                                        alt="Luna Lovegood lion mask funko figure">
+                                    <span class="img-label">NEW</span>
+                                </picture>
                                 <div>
                                     <p class="fs-6 text-uppercase">Harry Potter</p>
                                     <h4 class="fs-5 fw-bold text-uppercase">Luna Lovegood lion mask</h4>
