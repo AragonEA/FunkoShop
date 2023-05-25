@@ -1,0 +1,58 @@
+.admin_search-bar {
+    font-size: var(--font-medium);
+    padding: var(--spacing-8) var(--spacing-8);
+    border: 2px solid var(--dark-solid);
+    border-radius: 6px;
+    outline: none;
+    flex: 0 0 35%;
+}
+
+.admin_list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+}
+
+.admin_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-24);
+}
+
+.admin_header h2 {
+    font-size: var(--font-jumbo) ;
+}
+
+.admin_header span {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-16);
+    font-size: var(--font-large);
+    font-weight: 700;
+}
+
+.admin_header span a {
+    display: flex;
+    font-size: var(--font-medium);
+}
+
+.admin_table {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}
+
+.admin_table-header,
+.admin_table-row {
+    display: grid;
+    grid-template-columns: 40px 1fr 3fr 3fr 40px 40px;
+    align-items: center;
+    gap: var(--spacing-16);
+    font-size: var(--font-medium);
+    font-weight: 500;
+}
+
+.admin_table-header {
+    margin-bottom: var(--spacing-24);
+}

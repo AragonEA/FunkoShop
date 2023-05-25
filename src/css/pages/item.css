@@ -1,0 +1,67 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-24);
+}
+
+.item_img {
+    flex: 1 1 100%;
+}
+
+.item_info {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+}
+
+.item_license {
+    font-size: var(--font-small);
+    font-weight: 500;
+}
+
+.item_name {
+    font-size: var(--font-jumbo);
+    font-weight: 700;
+}
+
+.item_description {
+    font-size: var(--font-large);
+    font-weight: 400;
+}
+
+.item_price {
+    font-size: var(--font-jumbo);
+    font-weight: 400;
+}
+
+.item_promo {
+    font-size: var(--font-xsmall);
+    font-weight: 700;
+    color: var(--secondary-solid);
+}
+
+.item_cart {
+    display: flex;
+    gap: var(--spacing-16);
+}
+
+.item_cart .item_quantity {
+    background-color: var(--dark-bg-solid);
+    color: var(--light-font-solid);
+    font-size: var(--font-medium);
+    padding: var(--spacing-8) var(--spacing-16);
+    border: none;
+    cursor: pointer;
+  }
+
+  .item_cart .item_input {
+    font-size: var(--font-large);
+    padding: 6px var(--spacing-16);
+    text-align: center;
+    max-width: 70px;
+  }
+
+  .item_cart .item_submit {
+    font-size: var(--font-medium);
+  }
