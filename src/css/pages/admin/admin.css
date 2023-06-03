@@ -1,3 +1,17 @@
+#admin {
+    margin: var(--spacing-68) auto;
+}
+.admin_search {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-8);
+    margin-bottom: var(--spacing-36);
+}
+
+.admin_icon {
+    font-size: var(--font-xlarge);
+}
+
 .admin_search-bar {
     font-size: var(--font-medium);
     padding: var(--spacing-8) var(--spacing-8);
@@ -37,14 +51,14 @@
     font-size: var(--font-medium);
 }
 
-.admin_table {
+.admin-table {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-16);
 }
 
-.admin_table-header,
-.admin_table-row {
+.admin-table_header,
+.admin-table_row {
     display: grid;
     grid-template-columns: 40px 1fr 3fr 3fr 40px 40px;
     align-items: center;
@@ -53,6 +67,6 @@
     font-weight: 500;
 }
 
-.admin_table-header {
+.admin-table_header {
     margin-bottom: var(--spacing-24);
 }
