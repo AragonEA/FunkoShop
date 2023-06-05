@@ -1,66 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
 
-@import url('./utilities/normilizer.css');
-@import url('./utilities/variables.css');
-
+@import url('./partials/header.css');
+@import url('./partials/form.css');
+@import url('./partials/footer.css');
 
 @import url('./components/card.css');
 @import url('./components/buttons.css');
 
+@import url('./utilities/normilizer.css');
+@import url('./utilities/variables.css');
+@import url('./utilities/animation.css');
+@import url('./utilities/helpers.css');
 
-*,
-::before,
-::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.navbar_link {
-    font-size: var(--font-medium);
-    padding: var(--spacing-8) var(--spacing-16);
-    display: inline-block;
-    transition: background .3s ease-in-out;
-    position: relative;
-}
-
-.navbar_logo {
-    max-width: 300px;
-}
-
-.navbar_list {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-20);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-header,footer{
-    font-family: var(--alternative-font);
-    color: var(--light-font-solid);
-}
-
-header {
-    background-color: var(--dark-bg-solid);
-    padding: var(--spacing-36);
-}
-
-footer{
-    background-color: var(--dark-bg-solid);
-padding: var(--spacing-68);
-}
-
-.footer_copyright{
-    margin-top: var(--spacing-36);
-text-align: center;
-}
